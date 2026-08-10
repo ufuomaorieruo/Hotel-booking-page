@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Serene Bay Hotel — Book Your Stay</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">Serene&nbsp;Bay</div>
+  <nav>
+    <a href="#rooms">Rooms</a>
+    <a href="#booking">Book Now</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <img src="https://picsum.photos/id/164/1600/800" alt="Hotel exterior at sunset">
+  <div class="hero-text">
+    <h1>Serene Bay Hotel</h1>
+    <p>Wake up to ocean views, every single morning.</p>
+    <a href="#booking" class="btn">Check Availability</a>
+  </div>
+</section>
+
+<section id="rooms" class="rooms">
+  <h2>Our Rooms</h2>
+  <div class="room-grid">
+
+    <div class="room-card">
+      <img src="https://picsum.photos/id/1060/600/400" alt="Standard Room">
+      <div class="room-info">
+        <h3>Standard Room</h3>
+        <p>Cozy and comfortable, perfect for solo travelers or couples.</p>
+        <span class="price">₦45,000 / night</span>
+      </div>
+    </div>
+
+    <div class="room-card">
+      <img src="https://picsum.photos/id/1058/600/400" alt="Deluxe Room">
+      <div class="room-info">
+        <h3>Deluxe Room</h3>
+        <p>Extra space, a private balcony, and a stunning bay view.</p>
+        <span class="price">₦75,000 / night</span>
+      </div>
+    </div>
+
+    <div class="room-card">
+      <img src="https://picsum.photos/id/164/600/400" alt="Executive Suite">
+      <div class="room-info">
+        <h3>Executive Suite</h3>
+        <p>Our top-tier suite with a lounge area and complimentary breakfast.</p>
+        <span class="price">₦120,000 / night</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="booking" class="booking">
+  <h2>Book Your Stay</h2>
+  <form class="booking-form">
+    <label>
+      Full Name
+      <input type="text" placeholder="Your name" required>
+    </label>
+    <label>
+      Email
+      <input type="email" placeholder="you@example.com" required>
+    </label>
+    <label>
+      Check-in
+      <input type="date" required>
+    </label>
+    <label>
+      Check-out
+      <input type="date" required>
+    </label>
+    <label>
+      Room Type
+      <select>
+        <option>Standard Room</option>
+        <option>Deluxe Room</option>
+        <option>Executive Suite</option>
+      </select>
+    </label>
+    <button type="submit" class="btn">Confirm Booking</button>
+  </form>
+  <p class="form-note">This is a demo form — no booking is actually processed.</p>
+</section>
+
+<footer id="contact">
+  <p>Serene Bay Hotel &middot; Lagos, Nigeria &middot; +234 800 000 0000</p>
+  <p>&copy; 2026 Serene Bay Hotel. Deployed on Azure as a class project.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
